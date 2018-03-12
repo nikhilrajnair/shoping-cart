@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $.each($('div.original-price s'), function(index, item) {
+    $.each($('div.original-price'), function(index, item) {
 
         var new_price;
         var original_price = item.innerHTML;
